@@ -23,4 +23,5 @@ members = [
   "stack",
   "two_sum_rust",
   "xor_all",
+  "lake_problem",
 ]
