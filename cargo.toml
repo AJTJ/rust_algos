@@ -1,0 +1,26 @@
+[workspace]
+
+members = [
+  "add_two_numbers",
+  "animals",
+  "big_o",
+  "bits_rust",
+  "continuous_median",
+  "dutch_exp",
+  "fib_loop",
+  "fib_recursive",
+  "find_first_last_position",
+  "get_all_combos",
+  "get_delta_anagrams",
+  "is_prime",
+  "lonely_int_rust",
+  "min_heap_rust",
+  "multiplied_integers",
+  "other_algos",
+  "prime_calculator_rust",
+  "rust_hanoi",
+  "s_within_b",
+  "stack",
+  "two_sum_rust",
+  "xor_all",
+]
