@@ -30,22 +30,22 @@ impl Ord for MinFloat {
     }
 }
 
-#[derive(Debug, PartialEq)]
-struct MaxFloat(f64);
+// #[derive(Debug, PartialEq)]
+// struct MaxFloat(f64);
 
-impl Eq for MaxFloat {}
+// impl Eq for MaxFloat {}
 
-impl PartialOrd for MaxFloat {
-    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        other.0.partial_cmp(&self.0)
-    }
-}
+// impl PartialOrd for MaxFloat {
+//     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+//         other.0.partial_cmp(&self.0)
+//     }
+// }
 
-impl Ord for MaxFloat {
-    fn cmp(&self, other: &MaxFloat) -> Ordering {
-        self.partial_cmp(other).unwrap()
-    }
-}
+// impl Ord for MaxFloat {
+//     fn cmp(&self, other: &MaxFloat) -> Ordering {
+//         self.partial_cmp(other).unwrap()
+//     }
+// }
 
 fn main() {
     // for higher nums

@@ -24,4 +24,7 @@ members = [
   "two_sum_rust",
   "xor_all",
   "lake_problem",
+  "binary_tree",
 ]
+
+resolver = "2"
