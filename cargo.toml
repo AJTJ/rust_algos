@@ -14,7 +14,7 @@ members = [
   "get_delta_anagrams",
   "is_prime",
   "lonely_int_rust",
-  "min_heap_rust",
+  "min_heap_rust_old",
   "multiplied_integers",
   "other_algos",
   "prime_calculator_rust",
@@ -25,6 +25,7 @@ members = [
   "xor_all",
   "lake_problem",
   "binary_tree",
+  "min_heap",
 ]
 
 resolver = "2"
