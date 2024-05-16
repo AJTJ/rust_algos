@@ -28,6 +28,8 @@ impl MinHeap {
             queue.push(root);
             // getting lots of errors with queue, since I'm borring it mutably a lot
 
+            // TODO Does this need unsafe?
+
             let q_len = queue.len();
             while q_len > 0 {
                 current_node = Some(&mut queue[current_index]);

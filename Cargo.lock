@@ -256,6 +256,10 @@ name = "lakes_problem"
 version = "0.1.0"
 
 [[package]]
+name = "lakes_problem_queue"
+version = "0.1.0"
+
+[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -289,6 +293,10 @@ version = "0.1.0"
 
 [[package]]
 name = "min_heap_rust"
+version = "0.1.0"
+
+[[package]]
+name = "min_heap_vec"
 version = "0.1.0"
 
 [[package]]

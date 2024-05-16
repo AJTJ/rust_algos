@@ -23,9 +23,11 @@ members = [
   "stack",
   "two_sum_rust",
   "xor_all",
-  "lake_problem",
+  "lakes_problem",
   "binary_tree",
   "min_heap",
+  "min_heap_vec",
+  "lakes_problem_queue",
 ]
 
 resolver = "2"
