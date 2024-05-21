@@ -23,11 +23,12 @@ members = [
   "stack",
   "two_sum_rust",
   "xor_all",
-  "lakes_problem",
   "binary_tree",
   "min_heap",
   "min_heap_vec",
-  "lakes_problem_queue",
+  "lakes_problem_depth_first",
+  "lakes_problem_queue_breadth_first",
+  "bidirectional_search",
 ]
 
 resolver = "2"
