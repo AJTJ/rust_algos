@@ -1,5 +1,5 @@
 [package]
-name = "lakes_problem"
+name = "lakes_problem_depth_first"
 version = "0.1.0"
 edition = "2021"
 

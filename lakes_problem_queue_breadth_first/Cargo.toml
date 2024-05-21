@@ -1,5 +1,5 @@
 [package]
-name = "lakes_problem_queue"
+name = "lakes_problem_queue_breadth_first"
 version = "0.1.0"
 edition = "2021"
 

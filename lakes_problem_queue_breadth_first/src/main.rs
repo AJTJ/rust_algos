@@ -3,7 +3,7 @@ use std::collections::{HashMap, VecDeque};
 fn main() {
     let test_case: Vec<Vec<u8>> = vec![vec![1, 0, 0], vec![0, 1, 1], vec![0, 1, 1], vec![1, 1, 0]];
 
-    fn count_lakes(land: Vec<Vec<u8>>) -> u32 {
+    fn count_lakes_breadth_first(land: Vec<Vec<u8>>) -> u32 {
         let mut cells_visited: HashMap<(usize, usize), bool> = HashMap::new();
         let mut lake_count = 0;
 
@@ -55,5 +55,5 @@ fn main() {
         return lake_count;
     }
 
-    println!("lakes: {}", count_lakes(test_case));
+    println!("lakes: {}", count_lakes_breadth_first(test_case));
 }

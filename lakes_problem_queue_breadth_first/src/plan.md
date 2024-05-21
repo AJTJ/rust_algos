@@ -18,7 +18,7 @@ lake_count: number;
 cells_visited: HashMap<(usize, usize), bool>;
 
 
-iterate through all of the rows, and the columns
+iterate through all of the rows, and the columns for a BREADTH-FIRST
 
 if (val == 0 and not_visited) {
   inc lake_count
