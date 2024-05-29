@@ -1,3 +1,4 @@
+use lakes_problem_queue_breadth_first::breadth_first_2d_ndarray;
 use ndarray::Array2;
 fn main() {
     println!("Hello, world!");
@@ -11,4 +12,6 @@ fn main() {
         ],
     )
     .unwrap();
+
+    breadth_first_2d_ndarray(grid);
 }
