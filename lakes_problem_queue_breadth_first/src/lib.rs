@@ -77,8 +77,6 @@ pub fn breadth_first_2d_ndarray(
     // flag if the paths are connected
     let mut connection: Option<(usize, usize)> = None;
 
-    // TODO: Add the start and end points to their queues
-
     // check if the top element of each LILO queue is in existance of any of the parent lists?
     while !start_queue.is_empty() || !end_queue.is_empty() {
         println!("start_queue: {:?}", start_queue);
